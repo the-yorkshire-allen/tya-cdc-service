@@ -1,0 +1,31 @@
+# Build outputs
+target/
+out/
+
+# IDE metadata
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Java artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.log
+hs_err_pid*
+replay_pid*
+# Maven/Gradle
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+build/
+
+# OS / misc
+.DS_Store
+Thumbs.db
+
+# Local environment overrides
+.env
