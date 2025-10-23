@@ -3,11 +3,11 @@
 _All tasks must respect TYA CDC Service Constitution v1.2.0. Tests are authored before production code; each feature task cites the failing test(s) it introduces._
 
 ## Phase 0 — Research & Clarifications
-- [ ] **TSK-001** Gather Cassandra CDC retention & segment format details; document findings in `research.md` Section 1. _Owner: Platform Operations liaison._
-- [ ] **TSK-002** Confirm sink delivery protocol expectations (HTTPS vs broker) and authentication schemes; record decision + rationale in `research.md`. _Owner: Integration lead._
-- [ ] **TSK-003** Document resolved security policies (replay bounds, credential compromise workflow) in `research.md` and ensure specification references are cross-linked. _Owner: Security liaison._
-- [ ] **TSK-004** Obtain SLA sign-off for tiered freshness/backlog targets and deployment scheduler preference; update spec + research docs accordingly. _Owner: Data Platform Owner liaison._
-- [ ] **TSK-004A** Draft credential compromise incident runbook outline aligned with spec workflow; store under `research.md` and reference in plan deliverables. _Owner: Security liaison._
+- [x] **TSK-001** Gather Cassandra CDC retention & segment format details; document findings in `research.md` Section 1. _Owner: Platform Operations liaison._
+- [x] **TSK-002** Confirm sink delivery protocol expectations (HTTPS vs broker) and authentication schemes; record decision + rationale in `research.md`. _Owner: Integration lead._
+- [x] **TSK-003** Document resolved security policies (replay bounds, credential compromise workflow) in `research.md` and ensure specification references are cross-linked. _Owner: Security liaison._
+- [x] **TSK-004** Obtain SLA sign-off for tiered freshness/backlog targets and deployment scheduler preference; update spec + research docs accordingly. _Owner: Data Platform Owner liaison._
+- [x] **TSK-004A** Draft credential compromise incident runbook outline aligned with spec workflow; store under `research.md` and reference in plan deliverables. _Owner: Security liaison._
 
 ## Phase 1 — Design Artefacts & Contracts
 - [ ] **TSK-005** Draft `data-model.md` with Cassandra table schemas, partition keys, TTL/retention, audit fields, and S3 checkpoint manifest structure.
